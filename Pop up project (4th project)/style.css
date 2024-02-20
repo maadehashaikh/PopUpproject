@@ -1,0 +1,50 @@
+body{
+     background-color: rgb(47, 162, 220);
+}
+.showdiv{
+    display: none;
+}
+#submitbtn{
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    width: 12%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    border-radius: 22px;
+    font-family:'Times New Roman', Times, serif;
+}
+.showdiv{
+    background-color: rgb(79, 150, 172);
+    position: relative;
+    top: 180px;
+    left: 30%;
+    width: 35%;
+    z-index: 1;
+    padding: 20px;
+    border: 3px solid darkblue;
+    border-radius: 35px;
+}
+.showdiv h1{
+    color: white;
+    position: relative;
+    left:120px; 
+}
+.showdiv p{
+    color: white;
+    width: 70%;
+    position: relative;
+    left: 55px;
+    font-size: 17px;
+    /* background-color: azure; */
+}
+.showdiv button{
+    /* background-color: aqua; */
+    position: relative;
+    left: 40%;
+    padding: 8px;
+    width: 77px;
+    border: 2px solid blue;
+    font-style: italic;
+}
